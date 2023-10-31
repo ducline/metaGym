@@ -3,7 +3,14 @@
     --color-secondary: #2a160c;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: 'Roboto', sans-serif;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -13,6 +20,9 @@ body {
 /* HEADER Styles */
 
 #home {
+    background-color: rgba(0, 0, 0, 0.337);
+    background-attachment: fixed;
+    background-size: cover;
     height: 98%;
 }
 
@@ -61,6 +71,12 @@ body {
     text-decoration: none;
 }
 
+#home header nav li a img {
+    width: 100px;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
 .menu-toggle {
     display: none;
     font-size: 20px;
@@ -79,8 +95,6 @@ body {
 /*ABOUT STYLES */
 
 /*PLANS STYLES*/
-
-/*ENROLEMENT STYLES*/
 
 /*INFO/CONTACTS STYLES*/
 
