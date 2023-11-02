@@ -3,7 +3,14 @@
     --color-secondary: #2a160c;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: 'Roboto', sans-serif;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -13,6 +20,7 @@ body {
 /* HEADER Styles */
 
 #home {
+    background-color: rgba(0, 0, 0, 0.337);
     height: 98%;
 }
 
@@ -61,6 +69,41 @@ body {
     text-decoration: none;
 }
 
+#home header nav li a img {
+    width: 100px;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+
+/*CAROUSEL STYLES*/
+
+.images {
+    background-color: black;
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.images .carousel {
+    width: 300%;
+    animation-name: carousel;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.images .carousel img {
+   width: 19.9% ;
+}
+
+@keyframes carousel {
+    0% { margin-left:  0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    
+}
+
+
 .menu-toggle {
     display: none;
     font-size: 20px;
@@ -79,8 +122,6 @@ body {
 /*ABOUT STYLES */
 
 /*PLANS STYLES*/
-
-/*ENROLEMENT STYLES*/
 
 /*INFO/CONTACTS STYLES*/
 
