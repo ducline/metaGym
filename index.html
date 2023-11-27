@@ -10,9 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slide.css">
 </head>
 <body>
-    <section id="home">
+    <section id="navBar">
         <header class="nav">
             <nav class="menu">
                 <ul>
@@ -45,14 +46,37 @@
                  
             </nav>
         </header>
-        <div class="images">
-            <div class="carousel">
-                
-                <img src="images/gymbro.jpg" alt="teste">
-                
-                <img src="images/gymbro.jpg" alt="teste">
+    </section>
+    <section id="slider">   
+        <div class="carousel">
 
+            <input type="radio" name="slider" id="radio1">
+            <input type="radio" name="slider" id="radio2">
+            <input type="radio" name="slider" id="radio3">
+
+            <div class="box-slider first">
                 <img src="images/gymbro.jpg" alt="teste">
+            </div>
+
+            <div class="box-slider">
+                <img src="https://boaforma.abril.com.br/wp-content/uploads/sites/2/2023/08/acidentes-na-academia.jpg?quality=90&strip=info" alt="teste">
+            </div>
+                
+            <div class="box-slider">
+                <img src="images/gymbro.jpg" alt="teste">
+            </div>
+
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
             </div>
         </div>
     </section>

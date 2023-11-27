@@ -19,32 +19,32 @@ body {
 
 /* HEADER Styles */
 
-#home {
+#navBar {
     background-color: rgba(0, 0, 0, 0.337);
-    height: 98%;
+    line-height: 0;
 }
 
-#home header {
+#navBar header {
     color:var(--color-primary);
-    padding: 30px 0;
     position: fixed;
     width: 100%;
     top: 0;
 }
 
-#home header nav {
+#navBar header nav {
+    background-color: black;
     display: flex;
     justify-content: center;
 }
 
-#home header nav ul {
+#navBar header nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-#home header nav li {
+#navBar header nav li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,55 +53,29 @@ body {
     transition: transform 0.2s;
 }
 
-#home header nav li:hover {
+#navBar header nav li:hover {
     padding-bottom: 15px;
     color: var(--color-secondary);
     transform: translateY(-3px);
 }
 
-#home header nav li a {
+#navBar header nav li a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
-    padding: 20px;
+    letter-spacing: 3px;
+    padding: 8px;
     color: inherit;
     text-decoration: none;
 }
 
-#home header nav li a img {
+#navBar header nav li a img {
     width: 100px;
     overflow: clip;
     overflow-clip-margin: content-box;
 }
 
-
-/*CAROUSEL STYLES*/
-
-.images {
-    background-color: black;
-    width: 640px;
-    height: 360px;
-    overflow: hidden;
-}
-
-.images .carousel {
-    width: 300%;
-    animation-name: carousel;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-.images .carousel img {
-   width: 19.9% ;
-}
-
-@keyframes carousel {
-    0% { margin-left:  0; }
-    20% { margin-left: 0; }
-    25% { margin-left: -100%; }
-    
-}
 
 
 .menu-toggle {
