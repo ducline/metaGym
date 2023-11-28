@@ -32,6 +32,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
+
 }
 
 #navBar header nav {
@@ -57,7 +58,7 @@ body {
 }
 
 #navBar header nav li:hover {
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     color: var(--color-secondary);
     transform: translateY(-3px);
 }
@@ -80,7 +81,6 @@ body {
 }
 
 
-
 .menu-toggle {
     display: none;
     font-size: 20px;
@@ -93,7 +93,7 @@ body {
 /*PLANS STYLES*/
 .plans{
     width: 100vw;
-    height: 96vh;
+    height: 95vh;
     background: rgb(55,55,55);
     background: linear-gradient(133deg, rgba(55,55,55,1) 0%, rgba(42,42,42,1) 49%, rgba(25,25,25,1) 96%);
     flex-direction: column;
