@@ -1,5 +1,3 @@
-
-
 const Main = {
     init: function(){
         this.cacheSelectors()
@@ -50,27 +48,7 @@ const Main = {
         this.$ButBodybuilder.onmouseout = this.Events.butBodyBuilder_OutHover
     }, 
     Events:{
-        RadioEvents: function(){
 
-            let count = 1
-
-            document.getElementById("radio1").checked = true
-            
-            setInterval(() => {
-                nextImg()
-            }, 5000)
-            
-            const nextImg = () => {
-                count++
-            
-                if (count > 3) {
-                    count = 1
-                }
-            
-                document.getElementById("radio"+count).checked = true
-            }
-            
-        },
         CoverBasic_Hover: function(){
             Main.$CoverBasic.classList.add('Hider')
         },
