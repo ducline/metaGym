@@ -89,7 +89,7 @@
 }
 .CardContent li{
     color: var(--color-terciary);
-    font-size: 120%;
+    font-size: 2vh;
     margin-bottom: 5px;
     
 }
@@ -103,6 +103,6 @@
     transition: 100ms;
 }
 .yellow{
-    font-size: 120%;
+    font-size: 2vh;
     color: var(--color-secundary);
 }
