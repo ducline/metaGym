@@ -36,6 +36,7 @@ span {
 }
 
 .footer {
+    height: 50vh;
     margin-top: 2vw;
     background-color: var(--color-terciary);
     padding: 40px;
