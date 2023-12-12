@@ -23,7 +23,6 @@ body {
 /* HEADER Styles */
 
 #navBar {
-    z-index: 1;
     background-color: rgba(0, 0, 0, 0.337);
     line-height: 0;
 }
@@ -40,7 +39,7 @@ body {
     background-color: var(--color-secundary);
     display: flex;
     justify-content: center;
-    z-index: 1;
+
 }
 
 #navBar header nav ul {
@@ -80,8 +79,6 @@ body {
     overflow: clip;
     overflow-clip-margin: content-box;
 }
-
-
 
 .menu-toggle {
     display: none;
