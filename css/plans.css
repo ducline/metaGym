@@ -77,6 +77,8 @@
 }
 .CardContent{
     text-align: left;
+    display: flex;
+    align-items: center;
     margin-right: 0.6vw;
     height: 43vh;
     width: 20vw;
@@ -85,7 +87,7 @@
     border-top: none;
     border-bottom-left-radius: 1%;
     border-bottom-right-radius: 1%;
-    padding: 5% 10%;
+    padding: 10% 10%;
 }
 .CardContent li{
     color: var(--color-terciary);
