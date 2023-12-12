@@ -1,7 +1,7 @@
 section#info {
     width: 100vw;
     height: 96vh;
-    background-color: #191919;
+    background-color: var(--color-primary);
     color: white;
     padding: 40px;
     text-align: center;
@@ -35,12 +35,22 @@ span {
     font-style: italic;
 }
 
+.midLine {
+    background-color: var(--color-terciary) ;
+    margin-top: 3vw;
+    height: 1vh;
+}
+
 
 .footer {
+    background-color: #191919;
+    padding: 40px;
+}
+
+.footerInfos {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #191919;
     color: white;
     padding: 40px;
     text-align: center;
@@ -84,12 +94,13 @@ span {
     text-decoration: none;
 }
 
-.mediaLogos img {
+.mediaLogos .fa-brands {
+    font-size: 30px;
     margin-right: 10px;
     width: 20px;
     height: 20px;
 }
 
-.mediaLogos img:hover {
-    color: yellow;
+.mediaLogos .fa-brands:hover {
+    color: var(--color-secundary)!important;
 }

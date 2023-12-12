@@ -23,7 +23,7 @@ body {
 /* HEADER Styles */
 
 #navBar {
-    background-color: rgba(0, 0, 0, 0.337);
+    background-color: var(--color-primary);
     line-height: 0;
 }
 
