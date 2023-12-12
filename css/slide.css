@@ -31,7 +31,7 @@ section#slider {
 .nav-manual, .nav-auto {
     position:absolute;
     width: 100%;
-    margin-top: 44%;
+    margin-top: 44vw;
     display: flex;
     justify-content: center;
 }
