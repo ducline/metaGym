@@ -51,6 +51,11 @@ span {
     float: left;
 }
 
+.footerImg img {
+    width: 70px;
+    height: 20%;
+}
+
 .sectionList {
     float: left;
 }
@@ -69,6 +74,7 @@ span {
     float: right;
 }
 
+
 .mediaLogos li {
     list-style: none;
 }
@@ -76,10 +82,14 @@ span {
 .mediaLogos a {
     color: currentColor;
     text-decoration: none;
-    justify-content: space-between;
 }
 
 .mediaLogos img {
-    width: 30px;
-    height: 30px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.mediaLogos img:hover {
+    color: yellow;
 }
