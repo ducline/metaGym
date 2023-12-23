@@ -13,11 +13,12 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    width: 100vw;
+    width: 99.1vw;
     height: 100vh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 /* HEADER Styles */
@@ -30,7 +31,7 @@ body {
 #navBar header {
     color:var(--color-primary);
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     z-index: 1;
 }
