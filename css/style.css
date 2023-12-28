@@ -64,6 +64,10 @@ body {
     transform: translateY(-3px);
 }
 
+#navBar header nav li .adesao {
+    border: #FAD02C solid 1px;
+}
+
 #navBar header nav li a {
     text-transform: uppercase;
     text-decoration: none;
