@@ -1,0 +1,14 @@
+.form {
+    color: var(--color-primary);
+    width: 100%;
+    height: 95vh;
+}
+
+form {
+    margin-top: 7%;
+    margin-left: 1%;
+}
+
+input {
+    border-radius: 2px black solid;
+}
