@@ -52,46 +52,29 @@
             </nav>
         </header>
     </section>
-    <section class="form" id="form">
-        <h2>Formulário de Adesão</h2>
-        <form action="/submit_form" method="post">
+    <section class="formSec" id="form">
+        <form action="/submit_form" method="post" class="form">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+            <h1>Formulário de Adesão</h1>
+            <div style="display: flex; justify-content: center; flex-direction: column;">
+                <input type="email" id="email" name="email" required placeholder="E-mail">
 
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br><br>
+                <div style="display: flex;">
+                    <input type="text" id="nome" name="nome" required placeholder="Nome">
+                    <input type="text" id="apelido" name="apelido" required placeholder="Apelido">
+                </div>
+                <input type="tel" id="telefone" name="telefone" required placeholder="Telefone">
 
-            <label for="apelido">Apelido:</label>
-            <input type="text" id="apelido" name="apelido" required><br><br>
 
-            <label for="morada">Morada:</label>
-            <input type="text" id="morada" name="morada" required><br><br>
+                <select name="" id="cmbPlanos" class="cmbPlanos">
+                    <option value="" selected disabled>Escolha um Plano de Adesão:</option>
+                    <option value="PlanoBasico">Plano Básico</option>
+                    <option value="PlanoSaude">Plano Saúde</option>
+                    <option value="PlanoBodybuilder">Plano Bodybuilder</option>
+                </select>
 
-            <label for="codigo_postal">Código Postal:</label>
-            <input type="text" id="codigo_postal" name="codigo_postal" required><br><br>
-
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required><br><br>
-
-            <label for="tipo_plano">Tipo de Plano de Adesão:</label><br>
-            <input type="radio" id="plano_basico" name="tipo_plano" value="plano_basico">
-            <label for="plano_basico">Plano Básico</label><br>
-            <input type="radio" id="plano_saude" name="tipo_plano" value="plano_saude">
-            <label for="plano_saude">Plano Saúde</label><br>
-            <input type="radio" id="plano_bodybuilder" name="tipo_plano" value="plano_bodybuilder">
-            <label for="plano_bodybuilder">Plano Bodybuilder</label><br><br>
-
-            <label for="tipo_documento">Tipo de Documento:</label><br>
-            <input type="radio" id="cartao_cidadao" name="tipo_documento" value="cartao_cidadao">
-            <label for="cartao_cidadao">Cartão Cidadão</label><br>
-            <input type="radio" id="nif" name="tipo_documento" value="nif">
-            <label for="nif">NIF</label><br><br>
-
-            <label for="numero_contribuinte">NIF</label>
-            <input type="text" id="numero_contribuinte" name="numero_contribuinte" required><br><br>
-
-            <input type="submit" value="confirmar">
+                <input type="submit" value="Confirmar">
+            </div>
         </form>
     </section>
     <section id="info">
@@ -146,8 +129,6 @@
             
         </footer>
     </section>
-
-
     <script src="script.js"></script>
 </body>
 </html>

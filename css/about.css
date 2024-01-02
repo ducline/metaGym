@@ -34,6 +34,9 @@
     height: 74%;
     display: flex;
 }
+a{ 
+    text-decoration: none;
+}
 .aboutContent img{
     width: 50%;
     height: 100%;
